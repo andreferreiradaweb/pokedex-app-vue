@@ -1,0 +1,33 @@
+.base-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+  padding: 80px 0;
+  
+  &__card {
+    background-color: $background-element;
+    width: 200px;
+    border-radius: 8px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__name {
+  }
+
+  &__image-wrapper {
+    width: 8.563rem;
+    height: 8.813rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+}

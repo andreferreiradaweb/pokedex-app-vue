@@ -1,0 +1,28 @@
+.header-component {
+  height: 5.625rem;
+  background-color: $background-light;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__wrapper-logo {
+    width: 9.5rem;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+  }
+
+  &__logo {
+    width: 100%;
+    height: auto;
+  }
+
+  &__wrapper-input {
+    display: flex;
+    align-self: center;
+  }
+}
