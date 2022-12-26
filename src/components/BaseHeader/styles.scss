@@ -2,11 +2,20 @@
   height: 5.625rem;
   background-color: $background-light;
 
+  @media screen and (max-width: 600px) {
+    height: auto;
+    padding: 20px 0;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
   }
 
   &__wrapper-logo {
@@ -14,6 +23,11 @@
     height: 3rem;
     position: absolute;
     left: 0;
+
+    @media screen and (max-width: 600px) {
+      position: relative;
+      margin-bottom: 20px;
+    }
   }
 
   &__logo {

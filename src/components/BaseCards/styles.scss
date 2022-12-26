@@ -6,6 +6,10 @@
   flex-wrap: wrap;
   flex: 1 1 200px;
   padding: 80px 0;
+
+  @media screen and (max-width: 600px) {
+    padding: 40px 0;
+  }
   
   &__card {
     background-color: $background-element;
