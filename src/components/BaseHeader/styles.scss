@@ -24,7 +24,11 @@
     position: absolute;
     left: 0;
 
+    @media screen and (max-width: 1232px) {
+      left: 15px;
+    }
     @media screen and (max-width: 600px) {
+      left: 0;
       position: relative;
       margin-bottom: 20px;
     }
